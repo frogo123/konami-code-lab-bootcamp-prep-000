@@ -15,6 +15,7 @@ if (code[i] === num){
 }
 
 else{
+  i = 0;
 }
 
 })
