@@ -9,7 +9,7 @@ document.body.addEventListener('keydown', function(e) {
 if (code[i] === num){
   i++
   if (i === code.length){
-    alert("Boom!");
+    alert("Bingo!");
   }
 }
 
