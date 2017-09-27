@@ -8,8 +8,8 @@ document.body.addEventListener('keydown', function(e) {
   const num = parseInt(e.which || e.detail);
 if (code[i] === num){
   i++
-  if (i === code.length -1){
-    alert("Bingo");
+  if (i === code.length){
+    alert("Boom!");
   }
 }
 
