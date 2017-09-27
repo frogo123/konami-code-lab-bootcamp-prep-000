@@ -9,12 +9,12 @@ document.body.addEventListener('keydown', function(e) {
 if (code[i] === num){
   i++
   if (i === code.length){
+    i=0;
     alert("Bingo!");
   }
 }
 
 else{
-  i =  0;
 }
 
 })
